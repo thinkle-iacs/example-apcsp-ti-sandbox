@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      aside {
+        float: left;
+        width: 200px;
+        border-right: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 4px;
+      }
+      aside a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 4px;
+        border-bottom: 1px solid #777;
+      }
+      aside a:last-of-type {
+        border-bottom: 0px solid transparent;
+      }
+      #app {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 64px;
+      }
+      body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        padding-top: 32px;
+        color: white;
+      }
+      #source {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid #777;
+        width: 600px;
+        margin: auto;
+      }
+      h3 {
+        text-align: center;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-82cd56c2.js"></script>
+    <link rel="stylesheet" href="./assets/index-e3c54355.css">
+  </head>
+  <body>
+    <aside>
+      <a href="#hello"> Hello World </a>
+      <a href="#multipleChoice">Multiple Choice Questions</a>
+      <a href="#yesNo">Yes/No Questions</a>
+      <a href="#showImages">Images</a>
+      <a href="#showHTML">Arbitrary HTML</a>
+      <a href="#showElement">Arbitrary Elements</a>
+    </aside>
+    <div id="app"></div>
+    <h3 id="example-title">Example</h3>
+    <pre id="source"></pre>
+    
+  </body>
+</html>

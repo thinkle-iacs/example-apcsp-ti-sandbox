@@ -1,0 +1,15 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:docs": "vite build --config vite.docs.config.js",
+    "serve": "vite preview",
+    "serve:docs": "vite preview --config vite.docs.config.js"
+  },
+  "dependencies": {
+    "text-interface": "^1.0.6",
+    "vite": "^4.1.1"
+  }
+}
